@@ -1,0 +1,10 @@
+ {
+     "require": {
+         "jrealm/dungeons": "dev-master"
+     },
+     "scripts": {
+         "post-update-cmd": [
+             "sh vendor/jrealm/dungeons/doc/install"
+         ]
+     }
+ }
